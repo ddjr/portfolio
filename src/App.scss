@@ -1,0 +1,26 @@
+:root {
+  --primary-bg-color: #24292e;
+  --secondary-bg-color: #1f2428;
+  --primary-text-color: #ececec;
+  --secondary-text-color: #e1e4e8;
+  --icon-fill-color: #6a737d;
+
+  --navbar-height: 30px;
+  --footer-height: 25px;
+  --main-height: calc(100vh - var(--navbar-height) - var(--footer-height));
+
+  --primary-font: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+}
+* {
+  margin: 0;
+}
+.app {
+  min-height: 100vh;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);
+}
+.main {
+  display: flex;
+}

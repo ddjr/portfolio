@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  height: var(--navbar-height);
+  align-items: center;
+  background-color: var(--secondary-bg-color);
+  &__logo {
+    margin: 10px;
+    height: 60%;
+    object-fit: contain;
+  }
+  &__tools {
+    font-size: 1rem;
+    display: flex;
+    p {
+      padding: 8px;
+      &:hover {
+        background-color: #4f4f52;
+      }
+    }
+  }
+  &__filename {
+    margin-left: 8%;
+    white-space: pre;
+  }
+}

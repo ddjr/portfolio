@@ -1,0 +1,21 @@
+.iconAside {
+  display: flex;
+  flex-direction: column;
+  min-height: var(--main-height);
+  // min-height: -webkit-fill-available;
+  width: fit-content;
+  justify-content: space-between;
+  svg {
+    padding: 10px;
+    color: #6a737d;
+    font-size: 60px;
+  }
+  &__top {
+    display: flex;
+    flex-direction: column;
+  }
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+  }
+}
