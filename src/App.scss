@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 :root {
   --primary-bg-color: #24292e;
   --secondary-bg-color: #1f2428;
@@ -5,17 +6,22 @@
   --secondary-text-color: #e1e4e8;
   --icon-fill-color: #6a737d;
 
-  --navbar-height: 30px;
-  --footer-height: 25px;
+  --navbar-height: 35px;
+  --footer-height: 40px;
+  --filenames-height: 30px;
   --main-height: calc(100vh - var(--navbar-height) - var(--footer-height));
 
   --primary-font: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif;
+  --secondary-font: 'JetBrains Mono', monospace;
 }
 * {
   margin: 0;
 }
 .app {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   min-height: 100vh;
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
@@ -23,4 +29,7 @@
 }
 .main {
   display: flex;
+}
+body {
+  background-color: rgb(65,65,65);
 }
