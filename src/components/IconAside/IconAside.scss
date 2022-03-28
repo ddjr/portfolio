@@ -9,6 +9,10 @@
     padding: 10px;
     color: #6a737d;
     font-size: 60px;
+    cursor: pointer;
+    &:hover{
+      color: #d1d1d1;
+    }
   }
   &__top {
     display: flex;
@@ -17,5 +21,11 @@
   &__bottom {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media  (max-width: 420px)  {
+  .iconAside {
+    display: none;
   }
 }
