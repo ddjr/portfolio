@@ -13,6 +13,7 @@ function App() {
         <IconAside />
         <Explorer />
         <Filenames />
+        <Home />
       </div>
       <Footer />
     </div>
