@@ -3,10 +3,13 @@
     flex-direction: column;
     max-height: var(--main-height);
     overflow: scroll;
+    justify-content: center;
+    align-items: center;
     
     &__content {
         margin-left: 30px;
         margin-top: 30px;
+        justify-content: center;
         h1 {
             font-size: 4em;
         }
@@ -32,13 +35,13 @@
 }
 .typewriter {
     overflow: hidden;
-    border-right: .3rem solid white;
+    border-right: .3rem solid rgb(133,126,226); ;
     white-space: nowrap;
-    width: max-content;
+    max-width: max-content;
     margin: 0;
     // letter-spacing: 1rem;
     animation: 
-        typing 2.5s steps(30,end),
+        typing 4s steps(30,end),
         blink-caret 1s step-end infinite;
 }
 
@@ -49,7 +52,7 @@
 
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: white; }
+    50% { border-color: rgb(133,126,226); }
 }
 @media  (max-width: 768px)  {
     .home__content h1 {
