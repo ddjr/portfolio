@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import IconAside from './components/IconAside';
 import Navbar from './components/Navbar';
-
+// ADDED fire comment
 function App() {
   return (
     <div className="app">
