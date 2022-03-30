@@ -1,0 +1,16 @@
+.home,
+.project,
+.skills,
+.about,
+.contact {
+    height: 60vh;
+    // background-color: #be5ef2;
+    // padding-top: var(--navbar-height)+ var(--filenames-height);
+    text-align: center;
+}
+.content {
+    position: sticky;
+    top: (var(--navbar-height) + var(--filenames-height));
+    height: var(--main-height);
+    overflow: scroll;
+}

@@ -1,8 +1,9 @@
 .iconAside {
   display: flex;
   flex-direction: column;
-  // justify-content: space-between;
-  min-height: var(--main-height);
+  position: sticky;
+  top: var(--navbar-height);
+  height: var(--sidebar-height);
   // min-height: -webkit-fill-available;
   width: fit-content;
   justify-content: space-between;

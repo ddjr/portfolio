@@ -12,13 +12,23 @@ export default function IconAside() {
 return (
   <aside className='iconAside'>
     <div className='iconAside__top'>
-      <FileCopyIcon />
-      <GitHubIcon sx={style}/>
-      <CodeIcon sx={style}/>
-      <EmailIcon sx={style}/>
+       <a href="#home">
+        <FileCopyIcon />
+      </a>
+      <a href="#project">
+        <GitHubIcon sx={style}/>
+      </a>
+      <a href="#skills">
+        <CodeIcon sx={style}/>
+      </a>
+      <a href="#contact">
+        <EmailIcon sx={style}/>
+      </a>
     </div> 
     <div className='iconAside__bottom'>
+    <a href="#about">
       <AccountCircleRoundedIcon sx={style}/>
+      </a>
       <SettingsIcon sx={style}/>
     </div> 
   </aside>

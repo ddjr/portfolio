@@ -1,5 +1,7 @@
 .navbar {
   display: flex;
+  position: sticky;
+  top: 0;
   height: var(--navbar-height);
   align-items: center;
   background-color: var(--secondary-bg-color);

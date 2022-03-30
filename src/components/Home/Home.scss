@@ -35,7 +35,7 @@
 }
 .typewriter {
     overflow: hidden;
-    border-right: .3rem solid rgb(133,126,226); ;
+    border-right: .3rem solid var(--accent-color);
     white-space: nowrap;
     max-width: max-content;
     margin: 0;
@@ -52,7 +52,7 @@
 
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: rgb(133,126,226); }
+    50% { border-color: var(--accent-color); }
 }
 @media  (max-width: 768px)  {
     .home__content h1 {

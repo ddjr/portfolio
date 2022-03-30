@@ -3,7 +3,7 @@ import "./Home.scss"
 import Gif from "../../giphy.webp"
 function Home() {
   return (
-    <div className='home'>
+    <div className='home' id="home">
         <div className='home__content'>
             <div className='flex-group'>
                 <h1>David Daly</h1>
