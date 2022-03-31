@@ -3,7 +3,8 @@
 .skills,
 .about,
 .contact {
-    height: 60vh;
+    
+    min-height: var(--main-height);
     // background-color: #be5ef2;
     // padding-top: var(--navbar-height)+ var(--filenames-height);
     text-align: center;
