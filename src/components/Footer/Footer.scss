@@ -2,9 +2,10 @@
   display: flex;
   width: 100%;
   position: sticky;
-  bottom: 0; // var(--footer-height);
+  bottom: 0;
   height: var(--footer-height);
   justify-content: center;
   align-items: center;
   background-color: var(--secondary-bg-color);
+  z-index: 2;
 }

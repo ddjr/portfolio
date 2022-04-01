@@ -1,4 +1,3 @@
-.home,
 .project,
 .skills,
 .about,
@@ -14,4 +13,12 @@
     top: (var(--navbar-height) + var(--filenames-height));
     height: var(--main-height);
     overflow: scroll;
+    margin-bottom: 0;
+}
+@media screen and (max-width: 786px) {
+    .content {
+        height: 100vh;
+        z-index: 1;
+    }
+    
 }
