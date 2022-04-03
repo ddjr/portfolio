@@ -18,7 +18,7 @@ export const Projects = [
     description:
       "Visualize Dijkstras algorithm.Watch as it moves through a weighted plain. Add walls to see how the algorithm finds another way. See the highlighted shortest path at the end!",
     img: Visualizer,
-    url: "https://ddjr.github.io/pathfinding-visualizer/",
+    url: "https://pathfinding-visualizer-82ae6.firebaseapp.com/",
   },
   {
     id: 2,
