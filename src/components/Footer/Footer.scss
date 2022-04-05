@@ -4,9 +4,31 @@
   position: sticky;
   bottom: 0;
   height: var(--footer-height);
-  justify-content: center;
   align-items: center;
   background-color: var(--secondary-bg-color);
   z-index: 2;
   //fire!
+  &__item {
+    height: 100%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    svg {
+      margin-right: 3px;
+      justify-content: center;
+    }
+    p {
+      margin-right: 3px;
+    }
+    &:hover {
+      background-color: #4f4f52;
+    }
+  }
+}
+.right {
+  margin-left: auto;
+  p {
+    margin-right: 10px;
+  }
 }

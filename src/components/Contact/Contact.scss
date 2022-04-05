@@ -1,3 +1,44 @@
-// .contact {
-   
-// }
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.code {
+  margin: 20px;
+  font-family: var(--secondary-font);
+  justify-content: center;
+  display: flex;
+  font-size: clamp(1rem, -0.575rem + 4vw, 2rem);
+  a {
+    box-sizing: border-box;
+    color: inherit;
+    padding-top: 10px;
+  }
+  a:hover {
+    border-bottom: 2px solid #857ee2;
+  }
+  p {
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+  .code {
+    &__numbers {
+      color: #808080;
+    }
+    &__info {
+      span {
+        color: #857ee2;
+      }
+    }
+    &__indent {
+      margin-left: 40px;
+      &__item {
+        display: flex;
+      }
+    }
+  }
+}

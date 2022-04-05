@@ -2,6 +2,7 @@
   display: flex;
   position: sticky;
   top: 0;
+  z-index: 10;
   height: var(--navbar-height);
   align-items: center;
   background-color: var(--secondary-bg-color);
@@ -26,7 +27,7 @@
     white-space: pre;
   }
 }
-@media  (max-width: 768px)  {
+@media (max-width: 768px) {
   .navbar__tools {
     display: none;
   }
@@ -35,7 +36,7 @@
     margin-right: auto;
   }
 }
-@media  (max-width: 420px)  {
+@media (max-width: 420px) {
   .navbar__logo {
     display: none;
   }
