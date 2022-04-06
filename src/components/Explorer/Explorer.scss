@@ -15,6 +15,7 @@
   &__portfolio {
     &__header {
       display: flex;
+      cursor: pointer;
       svg {
         font-size: 15px;
         width: 20px;
@@ -58,10 +59,10 @@
 
   background-color: green;
 }
-.js{
+.js {
   width: 20px;
 }
-@media  (max-width: 768px)  {
+@media (max-width: 768px) {
   .explorer {
     display: none;
   }

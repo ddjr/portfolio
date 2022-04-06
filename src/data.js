@@ -2,13 +2,14 @@ import Zelda from "./media/zelda.gif";
 import Amazon from "./media/amazon.gif";
 import Disney from "./media/disney.gif";
 import Arcade from "./media/arcade.gif";
+import Uber from "./media/uber.gif";
 import Visualizer from "./media/visualizer.gif";
 export const Projects = [
   {
-    id: 1,
-    title: "Adventure Game",
+    id: 6,
+    title: "Uber Redesign",
     description:
-      "Use your arrow keys to find the grail in every level. Player learns to swim and unlock doors. Built with OOP & pure JS. Uses a Canvas element and clock to render levels. Dynamic camera scrolls as player moves.",
+      "Login and order an Uber! UI redesign using the mapbox API and Google firebase. Built with react and Tailwind",
     img: Zelda,
     url: "https://ddjr.github.io/adventureGame/",
   },
@@ -16,9 +17,17 @@ export const Projects = [
     id: 5,
     title: "Algorithm Visualizer",
     description:
-      "Visualize Dijkstras algorithm.Watch as it moves through a weighted plain. Add walls to see how the algorithm finds another way. See the highlighted shortest path at the end!",
+      "Visualize Dijkstras algorithm. Watch as it moves through a weighted plain. Add walls to see how the algorithm finds another way. See the highlighted shortest path at the end!",
     img: Visualizer,
     url: "https://pathfinding-visualizer-82ae6.firebaseapp.com/",
+  },
+  {
+    id: 1,
+    title: "Adventure Game",
+    description:
+      "Use your arrow keys to find the grail in every level. Player learns to swim and unlock doors. Built with OOP & pure JS. Uses a Canvas element and clock to render levels. Dynamic camera scrolls as player moves.",
+    img: Zelda,
+    url: "https://ddjr.github.io/adventureGame/",
   },
   {
     id: 2,
