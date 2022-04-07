@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="about" id="about">
       <h1>About</h1>
-      <img src={Face} />
+      <img src={Face} alt="face" />
       <p>
         {" "}
         Hi there! David is a Software Engineer from the United States. He
