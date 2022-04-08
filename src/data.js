@@ -4,6 +4,7 @@ import Disney from "./media/disney.gif";
 import Arcade from "./media/arcade.gif";
 import Uber from "./media/uber.gif";
 import Visualizer from "./media/visualizer.gif";
+import Airbnb from "./media/airbnb.gif";
 export const Projects = [
   {
     id: 1,
@@ -12,6 +13,14 @@ export const Projects = [
       "Use your arrow keys to find the grail in every level. Player learns to swim and unlock doors. Built with OOP & pure JS. Uses a Canvas element and clock to render levels. Dynamic camera scrolls as player moves.",
     img: Zelda,
     url: "https://ddjr.github.io/adventureGame/",
+  },
+  {
+    id: 7,
+    title: "Airbnb Rebuild",
+    description:
+      "Find your next adventure! Not sure where to go? Perfect. We got you covered. Built with Next.js, React and Tailwind.",
+    img: Airbnb,
+    url: "https://airbnb-rebuild-mu.vercel.app/",
   },
   {
     id: 5,
