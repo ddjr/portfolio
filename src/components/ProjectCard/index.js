@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProjectCard.scss";
+// fire
 function ProjectCard({ img, title, description, url, id }) {
   console.log(title);
   return (
