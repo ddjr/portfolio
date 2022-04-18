@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectCard.scss";
-
+// fire
 function ProjectCard({ img, title, description, url, id }) {
   console.log(title);
   return (
@@ -13,7 +13,7 @@ function ProjectCard({ img, title, description, url, id }) {
         </div>
       </div>
       <div className="projectCard__description">
-        <p> {description}</p>
+        <p>{description}</p>
       </div>
     </div>
   );
